@@ -69,7 +69,7 @@ When creating a profile:
 3. read `schemas/profile.schema.json`;
 4. read `data/faction-options.json`;
 5. create `profiles/<github>.json`;
-6. run `npm run validate`;
+6. run `pnpm validate`;
 7. tell the student what to inspect in the diff.
 
 Profile shape:
@@ -124,9 +124,9 @@ Do not infer faction values from the classroom computer.
 Useful commands:
 
 ```bash
-npm install
-npm run dev
-npm run validate
-npm run stats
-npm run build
+pnpm install
+pnpm dev
+pnpm validate
+pnpm stats
+pnpm build
 ```

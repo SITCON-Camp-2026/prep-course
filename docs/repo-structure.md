@@ -73,7 +73,7 @@ VS Code
 
 ### Validation
 
-`npm run validate` 會檢查：
+`pnpm validate` 會檢查：
 
 - GitHub 帳號格式
 - 必填欄位

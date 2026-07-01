@@ -5,7 +5,7 @@
 ```text
 notes/<GitHub 帳號>.md
 → profiles/<GitHub 帳號>.json
-→ npm run validate
+→ pnpm validate
 → 檢查 diff
 ```
 
@@ -48,7 +48,7 @@ notes/<GitHub 帳號>.md
 ## 驗證
 
 ```bash
-npm run validate
+pnpm validate
 ```
 
 通過後，這個任務就完成。

@@ -29,7 +29,7 @@
 
 ## 手動檢查
 
-- `npm run dev` 可以正常啟動
+- `pnpm dev` 可以正常啟動
 - 每位成員都有顯示
 - GitHub 頭貼正常載入
 - faction 統計合理
@@ -40,7 +40,7 @@
 ## 完成標準
 
 ```bash
-npm run validate
-npm run stats
-npm run build
+pnpm validate
+pnpm stats
+pnpm build
 ```

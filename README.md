@@ -7,7 +7,7 @@
 ```text
 自然語言草稿
 → Coding Agent 產生 JSON
-→ npm run validate
+→ pnpm validate
 → Showcase 頁面顯示
 → 人類檢查 diff
 ```
@@ -18,9 +18,11 @@
 
 在 VS Code 開啟這個資料夾，執行：
 
+這個專案只使用 pnpm。請不要使用 npm、yarn 或 bun 安裝相依套件。
+
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 預覽網址通常是：
@@ -35,17 +37,17 @@ http://localhost:5173/
 2. 改名為 `notes/<你的 GitHub 帳號>.md`。
 3. 填入你願意公開的內容。
 4. 請 Coding Agent 依照 `tasks/01-create-profile.md` 建立 `profiles/<你的 GitHub 帳號>.json`。
-5. 執行 `npm run validate`。
+5. 執行 `pnpm validate`。
 6. 在 Source Control 檢查 diff。
-7. 執行 `npm run dev`，確認自己出現在展示頁。
+7. 執行 `pnpm dev`，確認自己出現在展示頁。
 
 ## 常用指令
 
 ```bash
-npm run dev       # 本機預覽
-npm run validate  # 檢查 profiles/*.json
-npm run stats     # 統計 faction 人數
-npm run build     # 產生靜態網站
+pnpm dev       # 本機預覽
+pnpm validate  # 檢查 profiles/*.json
+pnpm stats     # 統計 faction 人數
+pnpm build     # 產生靜態網站
 ```
 
 ## 你會看到的成果

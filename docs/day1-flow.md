@@ -52,14 +52,14 @@
 notes/profile-note.template.md
 → notes/<GitHub 帳號>.md
 → profiles/<GitHub 帳號>.json
-→ npm run validate
-→ npm run stats
-→ npm run dev
+→ pnpm validate
+→ pnpm stats
+→ pnpm dev
 ```
 
 助教協助時，優先看：
 
-- `npm run validate` 的錯誤訊息
+- `pnpm validate` 的錯誤訊息
 - Source Control diff
 - `profiles/<github>.json` 是否含有不該公開的資訊
 - faction 是否使用固定代號
