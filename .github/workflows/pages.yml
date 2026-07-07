@@ -39,7 +39,13 @@ jobs:
         run: |
           set -eu
           workdir="$(mktemp -d)"
+          repo_profiles="${workdir}/repo-profiles"
+          mkdir -p "${repo_profiles}"
+
+          find profiles -maxdepth 1 -type f -name '*.json' -exec cp {} "${repo_profiles}/" \;
           find profiles -maxdepth 1 -type f -name '*.json' -delete
+
+          find "${repo_profiles}" -maxdepth 1 -type f -name '*.json' -exec cp {} profiles/ \;
 
           for n in 1 2 3 4 5 6 7 8 9; do
             repo="team${n}-prep-course"
