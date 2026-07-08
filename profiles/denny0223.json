@@ -1,0 +1,12 @@
+{
+  "$schema": "../schemas/profile.schema.json",
+  "github": "denny0223",
+  "displayName": "Denny Huang",
+  "tagline": "我是 Denny",
+  "interests": ["Cloud", "Git", "Open Source"],
+  "faction": {
+    "os": "linux",
+    "browser": "chrome",
+    "editor": "vim"
+  }
+}
